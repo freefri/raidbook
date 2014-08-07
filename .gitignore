@@ -1,0 +1,6 @@
+/plugins/DebugKit/*
+/vendor/*
+/config/app.php
+/tmp/*
+/.idea/*
+/composer.phar
