@@ -13,7 +13,7 @@
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
 
-$cakeDescription = 'CakePHP: the rapid development php framework';
+$cakeDescription = 'Roadbook';
 ?>
 <!DOCTYPE html>
 <html>
@@ -34,7 +34,10 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
 <body>
 	<div id="container">
 		<div id="header">
-			<h1><?= $this->Html->link($cakeDescription, 'http://cakephp.org') ?></h1>
+			<h1><?= $this->Html->link(
+                    $cakeDescription,
+                    ['controller' => 'Events', 'action' => 'index']
+                ) ?></h1>
 		</div>
 		<div id="content">
 			<?= $this->Flash->render() ?>
